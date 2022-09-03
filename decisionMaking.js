@@ -35,9 +35,26 @@ if (bearChoice === 1) {
 
 // Questions
 // 1. In English, using technical vocabulary, describe what is happening between lines 12 and 16.
+// If doorChoice is strictly equals to one then bearClothing equals hat.  If it doesnt equal one
+// than bearClothing equals scar
+
 // 2. What variable has a new value assigned to it after the first if statement executes?
+// bearClothing has a new value assigned depending on if true or false.
+
 // 3. If you changed the variable doorChoice to equal 3, what would the bearClothing value be?
+// If you changed the variable doorChoice to equal 3, than bearClothing would equal scarf.
+
 // 4. In English, using technical vocabulary, describe what is happening between lines lines 25 and 33.
+// If bearChoice strictly equals one, you offer the bear your bearClothing and the bear shows you a secret passage.
+// A condition is set that if bearChoice strickly equals 2, you tell the bear the bearClothing is too small and its starts to cry.
+// A condition is set that if bearChoice strickly equals 3, you run as fast as you can into the next room full of snakes.
+// If thos condistions are false than you stay with the bear and become its best friend.
+
 // 5. If you changed the variable bearChoice to equal 3, what will be the final outcome be?
+// The final outcome will be that you run as fast as you can into the next room full of snakes.
+
 // 6. If you changed the variable doorChoice to equal 1, and the variable bearChoice to equal 2, what will be the final outcome be?
+// You tell the bear the Hat is too small and it starts to cry.
+
 // 7. What is your favorite ending?
+// Secret passage seems kind of fun.

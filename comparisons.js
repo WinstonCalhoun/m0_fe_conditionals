@@ -21,24 +21,31 @@ console.log("Is numberTeachers greater than numberStudents?", numberTeachers > n
 // this should log: "Is numberTeachers greater than numberStudents?" false
 
 // YOU DO: log the result of the comparison: is numberTeachers less than numberStudents?
+console.log("Is numberTeachers less than numberStudents")
 // this should log: true
 
 // YOU DO: log the result of the comparison: is numberTeachers strictly equal to stringTeachers?
+console.log("Is numberTeachers less than stringTeachers")
 // this should log: false
 
 // YOU DO: log the result of the comparison: is numberTeachers not equal to numberStudents?
+console.log("Is numberTeachersnot equal to numberStudents")
 // this should log: true
 
 // YOU DO: log the result of the comparison: is numberStudents greater than or equal to 20?
+console.log("is numberStudents greater than or equal to 20")
 // this should log: true
 
 // YOU DO: log the result of the comparison: is numberStudents greater than or equal to 21?
+console.log("is numberStudents greater than or equal to 21")
 // this should log: false
 
 // YOU DO: log the result of the comparison: is numberStudents less than or equal to 20?
+console.log("is numberStudents less than or equal to 20")
 // this should log: true
 
 // YOU DO: log the result of the comparison: is numberStudents less than or equal to 21?
+console.log("is numberStudents less than or equal to 21")
 // this should log: true
 
 
@@ -53,20 +60,24 @@ console.log("Is numberTeachers greater than numberStudents?", numberTeachers > n
 
 console.log(4 < 9);
 // YOU DO: Explain.
+// Determine if 4 is less than 9
 
 var books = 3;
 console.log(4 < books);
 // YOU DO: Explain.
+// the variable of books is 3.  Determine if 4 is less than the number of books.
 
 var friends = 6;
 var siblings = 2;
 console.log(friends > siblings);
 // YOU DO: Explain.
+// Determine if the number of friends is greater than the number of siblings
 
 var attendees = 9;
 var meals = 8;
 console.log(attendees != meals);
 // YOU DO: Explain.
+// Determine if attendees are not equal to the meals
 
 
 // #-------------------
@@ -88,16 +99,17 @@ var lovesTreats = true;
 var age = 1;
 
 // YOU DO:
+console.log(lovesToPlay && lovesTreats)
 // Determine if the dog loves to play and loves treats
 
-
+console.log(lovesToPlay && lovesDogPark)
 // Determine if the dog loves to play and loves the dog park
 
-
+console.log(lovesToPlay || lovesDogPark)
 // Determine if the dog loves to play or loves the dog park
 
-
+console.log(lovesToPlay && age)
 // Determine if the dog loves to play and is a puppy
 
 // What did your final line of code evaluate to? Why do you think that is? Explain.
-// ANSWER:
+// ANSWER: I wrote age because the variable age is set as one and that is a puppies age.
